@@ -1,5 +1,4 @@
 # github-practice
-<<<<<<< HEAD
 # This is main branch 
-=======
->>>>>>> main
+# this is new branch feature1
+
