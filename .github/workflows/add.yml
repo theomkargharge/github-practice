@@ -1,27 +1,23 @@
-name: adding two numbers
+name: Add Numbers in Python
 
 on:
-    push: 
-      branches:
-        feature1
-
+  push:
+    branches:
+      - main
 
 jobs:
-   addition:
-      runs-on: ubuntu-latest
+  add_numbers:
+    runs-on: ubuntu-latest
 
-      steps:
+    steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      
-      - name: Set Up Python
-        uses: actions/setup-python@v2
-        with: 
-          python-version: '3.x'
 
-      - name: Run the Print  commond 
-        run: | 
-        python - <<EOF
-        print(4+5)
-        EOF
-   
+      - name: Add Numbers in Python
+        run: |
+          python - <<EOF
+          number1 = 5
+          number2 = 7
+          sum = number1 + number2
+          print(f"The sum of {number1} and {number2} is {sum}")
+          EOF
