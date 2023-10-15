@@ -14,7 +14,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Add Numbers in Python
-        run: |
-          python - <<EOF
+        run: 
           print(f"The sum of {1} and {2} is {2+ 1}")
-          EOF
+         
