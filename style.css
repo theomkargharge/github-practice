@@ -6,4 +6,9 @@ p{
 
 h1{
     size: 200px;
+    height: 20px;
+
+}
+p{
+    justify-content: centers;
 }
