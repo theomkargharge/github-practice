@@ -1,5 +1,9 @@
 p{
     color: white;
-    height: 10;
-    width: 300;
+    height: 10px;
+    width: 300px;
+}
+
+h1{
+    size: 200px;
 }
