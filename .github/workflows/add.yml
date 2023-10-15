@@ -16,8 +16,5 @@ jobs:
       - name: Add Numbers in Python
         run: |
           python - <<EOF
-          number1 = 5
-          number2 = 7
-          sum = number1 + number2
-          print(f"The sum of {number1} and {number2} is {sum}")
+          print(f"The sum of {1} and {2} is {2+ 1}")
           EOF
