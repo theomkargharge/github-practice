@@ -1,0 +1,27 @@
+name: adding two numbers
+
+on:
+    push: 
+      branches:
+        feature1
+
+
+jobs:
+   addition:
+      runs-on: ubuntu-latest
+
+      steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Set Up Python
+        uses: actions/setup-python@v2
+        with: 
+          python-version: '3.x'
+
+      - name: Run the Print  commond 
+        run: | 
+        python - <<EOF
+        print(4+5)
+        EOF
+   
