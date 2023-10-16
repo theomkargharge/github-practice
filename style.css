@@ -12,3 +12,9 @@ h1{
 p{
     justify-content: centers;
 }
+
+img{
+
+    columns: 1;
+    color: #000;
+}
